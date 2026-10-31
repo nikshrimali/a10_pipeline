@@ -1,0 +1,11 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv
+
+# Tokenized data, run outputs and checkpoints
+data/
+runs/

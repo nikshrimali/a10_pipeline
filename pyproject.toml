@@ -1,0 +1,21 @@
+[project]
+name = "honest-loop"
+version = "0.1.0"
+description = "A small GPT trained on a real loop that reports its own shapes, gradients, grad norm, throughput and MFU"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "huggingface-hub>=0.30",
+    "matplotlib>=3.9",
+    "numpy>=2.0",
+    "pyarrow>=17",
+    "tokenizers>=0.20",
+    "torch>=2.6",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29",
+    "nbconvert>=7.16",
+    "nbformat>=5.10",
+]
